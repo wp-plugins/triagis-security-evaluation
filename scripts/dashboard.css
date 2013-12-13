@@ -1,0 +1,91 @@
+.form-wrap h3{
+	padding-left:0px;
+	font-size:21px;
+	letter-spacing:-1px;
+	color:#0B8C8F;
+	}
+.form-wrap .form-head{
+	color: #1A1A1A;
+	display: block;
+	font-size: 11px;
+	margin-right: 7px;
+}
+.form-wrap label{
+	display: inline;
+}
+.form-wrap p.submit{
+	padding:0;
+}
+.form-wrap input, textarea, select, .button, .button-primary{
+	border-radius: 0;
+	padding:3px 7px;
+	border:1px solid #CCC;
+	}
+.form-wrap input:focus, textarea:focus{
+	border-color:#AAA;
+}
+.button, .button-primary, .booking-item{
+	cursor:pointer;
+	}
+.form-wrap .smalltext input{
+	width:100px;
+}
+.form-wrap .mediumtext input{
+	width:150px;
+}
+.form-wrap th, .form-wrap label{
+	text-shadow:none !important;
+	cursor:pointer;
+	}
+.form-wrap .form-field{
+	border-bottom:2px solid #DDD;
+	background-color:#FFFFFF;
+	padding: 5px 10px;
+	font-size:10px;
+	}
+.form-wrap .form-field:hover{
+	background-color:#E7E7E7;
+}
+.form-wrap .radio{
+	width:inherit;
+	border:none;
+	display:inline-block;
+	}
+.form-wrap input.checkbox{
+	width:auto;
+	}
+.normal_size input, .normal_size textarea, .normal_size select{
+	width:250px;
+}
+.small_size input, .small_size textarea, .small_size select{
+	width:100px;
+}
+.med_size input, .med_size textarea, .med_size select{
+	width:60%;
+}
+.full_size input, .full_size textarea, .full_size select{
+	width:96%;
+}
+.theme_loading{
+	position:relative;
+	bottom:-2px;
+	}
+div.messages, div.errors, div.notes{
+	padding:5px 10px;
+	margin: 2px 0 5px;
+	}
+.errors{
+	background-color: #FFEBE8;
+	border-top:1px solid #CC0000;
+}
+.messages{
+    background-color: #FFFFE0;
+    border-top:1px solid #E6DB55;
+}
+.notes{
+    background-color: #FFFFE0;
+    border-top:1px solid #E6DB55;
+}
+div.messages span, div.errors span, div.notes span{
+	display:block;
+}
