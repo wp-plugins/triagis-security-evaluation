@@ -1,36 +1,38 @@
-=== Triagis Security Evaluation ===
-Contributors: soliver, triagis-ltd
+=== Triagis® Security Evaluation - Check Folder Permissions And Quickly Fix Common Security Vulnerabilities ===
+Contributors: soliver, triagis-ltd, webmaster-net 
 Donate link: http://triagis.com
 Tags: security, permissions, wp-config, wp_head, wp_generator, database, php errors, server, ssl, prefix, mod_security, timthumb, spam
 Requires at least: 3.0.1
-Tested up to: 3.7.1
+Tested up to: 3.8 
 Stable tag: 1.11
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
-Triagis Security Evaluation is a simple lite-weight plugin to analyze your current Wordpress installation and server config for common security flaws. 
+Triagis® Security Evaluation is a simple lite-weight plugin to analyze your current Wordpress installation and server config for common security vulnerabilities. 
 
-== Description ==
+== Description == 
 
-Wordpress can be easily secured by following a few best security practices. We check your server and Wordpress installation for common security pittfalls. 
+Wordpress can be easily secured by following a few best security practices. We check your server and Wordpress installation for common security vulnerabilities, which you can then address right on the plugin page itself!
 
-Some of the things we check for: 
+= Some of the things we check for, which you can fix with a few clicks! =
 
+* Check if thumthumb.php or other scripts exist that are easily exploited 
 * Location of your wp-config.php 
-* Is mod_security enabled
+* Is mod_security enabled 
 * Is SSL for backend enabled
 * What information do you expose 
 * Do you currently allow PHP to display errors?
 * What permission does your wp-config file, folders and other files on the server have - are they secure?
 * Is your server software up to date (MySQL,PHP,OS)
-* What database prefix do you use?
-* What is the username of the admin account
+* What database prefix do you use? (1-click Fix available)
+* What is the username of the admin account (1-click Fix available)
 
-= Don't Expose Wordpress Version =
+
+= Don't Expose Wordpress Version Using Our Suggestions =
 
 A default Wordpress installation will expose your version. Hackers scan sites for exploits and always look for older versions that are still vulnerable. Use our suggestion to remove it
 
-= Check Folder Permissions =
+= Check Folder Permissions With 1-Click =
 
 Most Wordpress installations get hacked due to insecure folder permissions. World-writable (777) permissions invite other users to upload and access files to your server, making it highly vulnerable.
 
@@ -64,6 +66,9 @@ No questions yet - send questions to support@triagis.com
 2. Various security options you can check and modify directly on the plugin page e.g. table prefix, admin account name, etc. 
 
 == Changelog ==
+
+= 1.12 =
+* Fixed critical bug, further cleanup
 
 = 1.11 =
 * Cleaned up files 
