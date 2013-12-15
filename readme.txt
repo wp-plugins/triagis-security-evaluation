@@ -77,6 +77,9 @@ No questions yet - send questions to support@triagis.com
 
 == Changelog ==
 
+= 1.13 =
+* Minor update, fixed some CSS issues
+
 = 1.12 =
 * Fixed critical bug, further cleanup
 * Added disclaimer before moving wp-content directory 
