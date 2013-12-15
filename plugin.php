@@ -3,7 +3,7 @@
 Plugin Name: Triagis Security Evaluation (Free)
 Plugin URI: http://triagis.com 
 Description: WordPress Login Security Lockdown and Email Notification Plugin: Restrict user access to whitelisted IP's, enable notifications about logins from unknown IP addresses, restrict moderators to manage plugins and more....
-Version: 1.11
+Version: 1.12
 Author: Triagis Ltd. 
 Author URI: http://triagis.com
 Author Email: support@triagis.com
@@ -11,8 +11,10 @@ Author Email: support@triagis.com
 
 /*
 Change Log
+= 1.12 =
+Fixed critical bug, maintenance release
 = 1.11 =
-Removec lutter
+Removed lutter
 = 1.10 =
 Fixed function error
 */
