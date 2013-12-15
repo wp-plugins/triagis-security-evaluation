@@ -947,7 +947,6 @@ function w4sl_osmp_info_table_ajax(){
 }
 add_action( 'wp_ajax_w4sl_osmp_info_table', 'w4sl_osmp_info_table_ajax' );
 
-
 /**
  * Security Informations Page Action handler
  * @package WordPress
