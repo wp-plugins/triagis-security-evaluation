@@ -34,7 +34,7 @@ A default Wordpress installation will expose your version. Hackers scan sites fo
 
 = Check Folder Permissions With 1-Click =
 
-Most Wordpress installations get hacked due to insecure folder permissions. World-writable (777) permissions invite other users to upload and access files to your server, making it highly vulnerable.
+Most Wordpress installations get hacked due to insecure folder permissions. World-writable (777) permissions invite other users to upload files to your server, making it highly vulnerable.
 
 
 = Move Wp-Content Directory =
