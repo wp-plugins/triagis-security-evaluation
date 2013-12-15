@@ -8,7 +8,7 @@ Stable tag: 1.12
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
-Triagis® Security Evaluation is a simple lite-weight plugin to analyze your current Wordpress installation and server config for security vulnerabilities. 
+Triagis® Security Evaluation is a simple lite-weight plugin to analyze your current Wordpress installation, server for security vulnerabilities. 
 
 == Description == 
 

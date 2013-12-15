@@ -49,7 +49,7 @@ function w4sl_admin_body_security_informations(){
 		$notices .= "<div class='notes'>Apache module <b>mod_security</b> is installed.</div>";
 	}
 	else{
-		$notices .= "<div class='errors'>Apache module <b>mod_security</b> is not installed or at least we were unable to locate it.</div>";
+		$notices .= "<div class='errors'>Apache module <b>mod_security</b> is not installed or at least we were unable to locate it. If you are using a control panel such as WHM we may not be able to locate it</div>";
 	}
 
 
@@ -150,7 +150,7 @@ function w4sl_admin_body_security_informations(){
 		<div class="form-wrap">
  
 			<div class="form-field w4ls_half_left">
-				<span class="form-head"><strong>WARNING: This may break your website, use on development server ONLY</strong> Change WordPress wp-content folder location:<br><small>Moves your content folder outside of your WordPress installation.</small></span>
+				<span class="form-head">Change WordPress wp-content folder location: (<strong style="color:#ff0000;">WARNING: This may break your website, use on development server ONLY</strong>)<br><small>Moves your content folder outside of your WordPress installation.</small></span>
 			</div>
 			<a class="f_btn" id="w4sl_wp_content_location_change_form_btn" href="javascript:void(0);">Change</a><br class="clear"/>
 			<div id="w4sl_wp_content_location_change_form_content" class="hidden"></div>
