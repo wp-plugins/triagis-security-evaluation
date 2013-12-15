@@ -1,4 +1,4 @@
-=== Triagis® Security Evaluation - Check Folder Permissions, 1-Click Fix For Common Security Vulnerabilities ===
+=== Triagis® Security Evaluation - Check Folder Permissions, Fix For Common Security Vulnerabilities ===
 Contributors: soliver, triagis-ltd, webmaster-net 
 Donate link: http://triagis.com
 Tags: security, permissions, wp-config, wp_head, wp_generator, database, php errors, server, ssl, prefix, mod_security, timthumb, spam
@@ -35,6 +35,13 @@ A default Wordpress installation will expose your version. Hackers scan sites fo
 = Check Folder Permissions With 1-Click =
 
 Most Wordpress installations get hacked due to insecure folder permissions. World-writable (777) permissions invite other users to upload and access files to your server, making it highly vulnerable.
+
+
+= Move Wp-Content Directory =
+
+Most Wordpress installations use a folder called wp-content and a subdirectory "uploads". If you want to make it a little more difficult for possible automated
+attacks to succeed you might want to consider changing your wp-content directory name. With our plugin you can do with a few clicks. NOTE: This is intended for development
+environments and not production sites. We do not recommend to try this on your live sites. 
 
 = Future Versions =
 
