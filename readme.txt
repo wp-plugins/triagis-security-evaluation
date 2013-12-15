@@ -40,7 +40,7 @@ Most Wordpress installations get hacked due to insecure folder permissions. Worl
 = Move Wp-Content Directory =
 
 Most Wordpress installations use a folder called wp-content and a subdirectory "uploads". If you want to make it a little more difficult for possible automated
-attacks to succeed you might want to consider changing your wp-content directory name. With our plugin you can do with a few clicks. NOTE: This is intended for development
+attacks to succeed you might want to consider changing your wp-content directory name. With our plugin you can do that with a few clicks. NOTE: This is intended for development
 environments and not production sites. We do not recommend to try this on your live sites. 
 
 = Future Versions =
