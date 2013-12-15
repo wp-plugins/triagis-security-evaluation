@@ -43,6 +43,14 @@ Most Wordpress installations use a folder called wp-content and a subdirectory "
 attacks to succeed you might want to consider changing your wp-content directory name. With our plugin you can do that with a few clicks. NOTE: This is intended for development
 environments and not production sites. We do not recommend to try this on your live sites. 
 
+= Why TimThumb Poses A Security Threat = 
+
+On all servers that host Wordpress sites you will have automated scans for a file called timthumb.php or a variation of other names that are targeting exactly this file. Why?
+Because timthumb.php is very easy to exploit if you set the wrong file and folder permissions. If your server is mis-configured, timthumb.php poses a significant threat 
+to your site and server. That's why we recommend that beginners try to locate plugins that make use of this script and try to find alternatives. An alternative approach is to move the timthumb.php outside
+the public folders. 
+
+
 = Future Versions =
 
 Planned for future versions is a dashboard widget with important information at a glance and additional security checks
