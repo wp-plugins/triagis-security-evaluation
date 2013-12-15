@@ -4,7 +4,7 @@ Donate link: http://triagis.com
 Tags: security, permissions, wp-config, wp_head, wp_generator, database, php errors, server, ssl, prefix, mod_security, timthumb, spam
 Requires at least: 3.0.1
 Tested up to: 3.8 
-Stable tag: 1.12 
+Stable tag: 1.12  
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 

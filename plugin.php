@@ -10,7 +10,7 @@ Author Email: support@triagis.com
 */
 
 /*
-Change Log
+Change Log 
 = 1.13 =
 Fixed CSS issues
 = 1.12 =
