@@ -1,4 +1,4 @@
-=== Triagis® Security Evaluation - Check Folder Permissions And Quickly Fix Common Security Vulnerabilities ===
+=== Triagis® Security Evaluation - Check Folder Permissions, 1-Click Fix For Common Security Vulnerabilities ===
 Contributors: soliver, triagis-ltd, webmaster-net 
 Donate link: http://triagis.com
 Tags: security, permissions, wp-config, wp_head, wp_generator, database, php errors, server, ssl, prefix, mod_security, timthumb, spam
