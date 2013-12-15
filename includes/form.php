@@ -1,9 +1,7 @@
 <?php
 if( !defined( 'ABSPATH' ))
 	require '../plugin.php';
-
-# Nothing Important Here.
-# Adin Page FrameWork by w4dev.com
+# Required Framework Addition
 # Do Not Edit Below, Please..
 function w4sl_parse_form_fields( $form_fields, $defaults = array()){
 	global $w4sl_pagenow, $w4sl_action, $w4sl_form_url;

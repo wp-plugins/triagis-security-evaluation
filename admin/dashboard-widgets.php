@@ -9,9 +9,6 @@
 if( !defined( 'ABSPATH' ))
 	require '../plugin.php';
 
-	 require_once( W4SL_ADMIN .'/page-check.php' );
-if ($probs == '1'){  }else{
-	
 	
 function w4sl_dashboard_scripts(){
 	if( !is_super_admin())
@@ -250,5 +247,5 @@ function w4sl_admin_bar_menu( $wp_admin_bar ){
 	}
 }
 add_action( 'admin_bar_menu', 'w4sl_admin_bar_menu', 999 );
-}
+
 ?>

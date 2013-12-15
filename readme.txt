@@ -36,6 +36,9 @@ A default Wordpress installation will expose your version. Hackers scan sites fo
 
 Most Wordpress installations get hacked due to insecure folder permissions. World-writable (777) permissions invite other users to upload and access files to your server, making it highly vulnerable.
 
+= Future Versions =
+
+Planned for future versions is a dashboard widget with important information at a glance and additional security checks
 
 = Further Reading =
 For more info, check out the following articles and videos:
@@ -69,6 +72,7 @@ No questions yet - send questions to support@triagis.com
 
 = 1.12 =
 * Fixed critical bug, further cleanup
+* Added disclaimer before moving wp-content directory 
 
 = 1.11 =
 * Cleaned up files 

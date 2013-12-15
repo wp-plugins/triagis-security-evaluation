@@ -148,15 +148,15 @@ function w4sl_admin_body_security_informations(){
 ?>
 	<div class="w4sl_form_wrapper">
 		<div class="form-wrap">
-
+ 
 			<div class="form-field w4ls_half_left">
-				<span class="form-head">Change WordPress wp-content folder location:<br><small>Moves your content folder outside of your WordPress installation.</small></span>
+				<span class="form-head"><strong>WARNING: This may break your website, use on development server ONLY</strong> Change WordPress wp-content folder location:<br><small>Moves your content folder outside of your WordPress installation.</small></span>
 			</div>
 			<a class="f_btn" id="w4sl_wp_content_location_change_form_btn" href="javascript:void(0);">Change</a><br class="clear"/>
 			<div id="w4sl_wp_content_location_change_form_content" class="hidden"></div>
 
 			<div class="form-field w4ls_half_left">
-				<span class="form-head">Check files and folders for wrong permissions:<br><small>Directories should be 755, files should be 644.</small></span>
+				<span class="form-head">Checks all files and folders for wrong permissions:<br><small>Directories should be 755, files should be 644.</small></span>
 			</div>
 			<a class="f_btn" id="w4sl_unappropriate_entries_table_btn" href="javascript:void(0);">Check permission</a><br class="clear"/>
 			<div id="w4sl_unappropriate_entries_table_content"></div>
@@ -168,7 +168,7 @@ function w4sl_admin_body_security_informations(){
 			<div id="w4sl_checkthimbthumb_content"></div>
 			
 			<div class="form-field w4ls_half_left">
-				<span class="form-head">Checks if any user use the username "admin":<br><small>Users should NEVER use the username "admin".</small></span>
+				<span class="form-head">Checks if any users use the username "admin":<br><small>Users should NEVER use the username "admin" because it is easily explotable.</small></span>
 			</div>
 			<a class="f_btn" id="w4sl_username_change_form_btn" href="javascript:void(0);">Checks admin username</a><br class="clear"/>
 			<div id="w4sl_username_change_form_content"></div>
