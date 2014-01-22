@@ -12,7 +12,7 @@ Author Email: support@triagis.com
 /*
 Change Log 
 = 1.14 = 
-Fixed issue with a function, caused issue for some lite users (premium users not affected)
+Fixed issue with a function that caused issue for some lite users (premium users not affected)
 = 1.13 =
 Fixed CSS issues
 = 1.12 =
