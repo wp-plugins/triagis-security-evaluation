@@ -5,8 +5,8 @@
 if( !defined( 'ABSPATH' ))
 	require '../plugin.php';
 
-# Add Log of the visitor, on load wp_footer
-add_action( 'wp_footer', 'w4sl_insert_visitor', 1 );
+# Add Log of the visitor, on load wp_footer, not required in lite
+#add_action( 'wp_footer', 'w4sl_insert_visitor', 1 );
 
  
  

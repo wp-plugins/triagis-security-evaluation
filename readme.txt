@@ -4,7 +4,7 @@ Donate link: http://triagis.com
 Tags: security, permissions, wp-config, wp_head, wp_generator, database, php errors, server, ssl, prefix, mod_security, timthumb, spam
 Requires at least: 3.0.1
 Tested up to: 3.8 
-Stable tag: 1.12  
+Stable tag: 1.14  
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -84,6 +84,9 @@ No questions yet - send questions to support@triagis.com
 2. Various security options you can check and modify directly on the plugin page e.g. table prefix, admin account name, etc. 
 
 == Changelog ==
+
+= 1.14 = 
+* Fixed issue for some lite users 
 
 = 1.13 =
 * Minor update, fixed some CSS issues
