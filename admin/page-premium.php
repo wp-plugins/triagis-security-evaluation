@@ -28,7 +28,7 @@ function w4sl_admin_body_license(){
 	$license_options['w4sl_license_options_update'] = '1';
 	
 	$mytext = '<h2>Premium: 24/7 Email Alerts + Admin Logs + DynDNS Whitelist For Only $39.99</h2><br/>Would you like to fully secure your Wordpress installation with a single plugin? Then get our premium plugin which includes
-	24/7 Email Alerts, DynDNS WhiteList, IP Blacklists, Admin Log On Your Dashboard And Much More - <br/> <a style="font-size:22px;font-weight:bold" href="https://triagis.com/take-the-tour-the-best-features">Take The Tour</a> ';
+	24/7 Email Alerts, DynDNS WhiteList, IP Blacklists, Admin Log On Your Dashboard And Much More - <br/> <a style="font-size:22px;font-weight:bold" href="https://triagis.com/take-the-tour-the-best-features">Take The Tour</a> <br/><br/>You can find our new support forums at <a href="https://forums.webmaster.net/#product-support-forums.66">https://forums.webmaster.net/</a>.';
 	echo $mytext;
 	//w4sl_parse_form_fields( $form_fields, $license_options );
 }

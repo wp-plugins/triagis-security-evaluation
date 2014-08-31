@@ -548,8 +548,8 @@ function w4sl_thimbthumb_files_table_ajax(){
 	$files = !empty( $entries['files'] ) ? $entries['files'] : array();
 	
 	if( empty( $files ))
-		die( json_encode( array( 'html' => '<div class="messages">No <b>thimbthumb.php</b> file found within your WordPress installation.</div>' )));
-
+		die( json_encode( array( 'html' => '<div class="messages">No <b>timthumb.php</b> file found within your WordPress installation.</div>' )));
+ 
 
 	$html = '<table class="widefat w4sl_table"><thead><tr><th>File</th><tr><tbody>';
 	$row_class = 'row_even';

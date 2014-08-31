@@ -3,8 +3,8 @@ Contributors: soliver, triagis-ltd, webmaster-net
 Donate link: http://triagis.com
 Tags: security, permissions, wp-config, wp_head, wp_generator, database, php errors, server, ssl, prefix, mod_security, timthumb, spam
 Requires at least: 3.0.1
-Tested up to: 3.8 
-Stable tag: 1.14  
+Tested up to: 3.9.2 
+Stable tag: 1.15
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -55,6 +55,10 @@ the public folders.
 
 Planned for future versions is a dashboard widget with important information at a glance and additional security checks
 
+Add improved way to check for TimThumb
+
+
+
 = Further Reading =
 For more info, check out the following articles and videos:
 
@@ -75,6 +79,8 @@ This will help you to correctly install the plugin
 == Frequently Asked Questions ==
 
 No questions yet - send questions to support@triagis.com
+
+If you need support, please go to our new product support forums at https://forums.webmaster.net/#product-support-forums.66
  
  
 
@@ -84,6 +90,10 @@ No questions yet - send questions to support@triagis.com
 2. Various security options you can check and modify directly on the plugin page e.g. table prefix, admin account name, etc. 
 
 == Changelog ==
+
+
+= 1.15 = 
+* Fixed some typos, checked current Wordpress version stability, added new roadmap, added new support forum link for product support
 
 = 1.14 = 
 * Fixed issue for some lite users 
