@@ -3,8 +3,8 @@ Contributors: soliver, triagis-ltd, webmaster-net
 Donate link: http://triagis.com
 Tags: security, permissions, wp-config, wp_head, wp_generator, database, php errors, server, ssl, prefix, mod_security, timthumb, spam
 Requires at least: 3.0.1
-Tested up to: 3.9.2 
-Stable tag: 1.15
+Tested up to: 4.0.1
+Stable tag: 1.16
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 

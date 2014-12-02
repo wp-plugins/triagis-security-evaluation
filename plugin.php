@@ -3,7 +3,7 @@
 Plugin Name: Triagis® Security Evaluation
 Plugin URI: http://triagis.com 
 Description: Liteweight backend solution to quickly scan your Wordpress installation for security vulnerabilities and common exploits
-Version: 1.15 
+Version: 1.16
 Author: Triagis Ltd. 
 Author URI: http://triagis.com
 Author Email: support@triagis.com
